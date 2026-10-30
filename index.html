@@ -1,0 +1,286 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DRUGS &amp; HUMAN NERVOUS SYSTEM – Stimulants &amp; Depressants at the Synapse</title>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0F172A;--cy:#06B6D4;--rd:#EF4444;--tx:#E2E8F0;--mu:#94A3B8;--card:rgba(30,41,59,.7);--ln:rgba(148,163,184,.18);--hd:'Archivo Black','Impact',sans-serif;--bd:'Inter',system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(68px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 1.05rem/1.7 var(--bd);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--hd);font-weight:400;line-height:1.02;margin:0 0 .5em;letter-spacing:-.01em;text-transform:uppercase}
+h2{font-size:clamp(2rem,6vw,4rem)}h3{font-size:1.25rem}
+p{margin:0 0 1em;color:#CBD5E1}
+a{color:var(--cy)}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+section{padding:96px 0;position:relative}
+.kick{font:700 .75rem var(--bd);letter-spacing:.2em;text-transform:uppercase;color:var(--mu);display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.kick b{background:var(--cy);color:var(--bg);padding:2px 8px;border-radius:3px}
+mark{background:linear-gradient(transparent 55%,rgba(6,182,212,.45) 55%);color:inherit;padding:0 2px}
+mark.r{background:linear-gradient(transparent 55%,rgba(239,68,68,.5) 55%)}
+.cy{color:var(--cy)}.rd{color:var(--rd)}
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(15,23,42,.82);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--ln);padding-top:env(safe-area-inset-top,0px)}
+nav .wrap{display:flex;align-items:center;gap:6px;height:60px;overflow-x:auto;scrollbar-width:none}
+nav .logo{flex:0 0 auto;font:400 .8rem var(--hd);margin-right:auto;white-space:nowrap;text-decoration:none;color:#fff}
+nav .logo i{color:var(--cy);font-style:normal}
+nav a.l{color:var(--mu);text-decoration:none;font-size:.82rem;font-weight:500;padding:6px 10px;border-radius:6px;white-space:nowrap}
+nav a.l:hover,nav a.l.on{color:#fff;background:rgba(6,182,212,.15)}
+/* hero */
+#home{min-height:92vh;display:flex;align-items:center;overflow:hidden;padding:60px 0}
+#hero-c{position:absolute;inset:0;width:100%;height:100%}
+#home .wrap{position:relative;z-index:2}
+#home h1{font-size:clamp(1.25rem,6vw,4rem);max-width:100%;text-wrap:balance;margin-bottom:.15em;background:linear-gradient(90deg,var(--cy) 0 48%,var(--rd) 52% 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sub{font:400 clamp(1.1rem,3vw,1.7rem)/1.25 var(--hd);text-transform:uppercase;max-width:760px;margin-bottom:22px}
+.hook{max-width:640px;font-size:1.12rem}
+/* cards */
+.card{background:var(--card);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--ln);border-radius:16px;padding:28px;transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);border-color:rgba(6,182,212,.5);box-shadow:0 14px 40px rgba(6,182,212,.12)}
+.author-photo{display:block;width:min(100%,220px);aspect-ratio:3/4;object-fit:cover;object-position:center 42%;border-radius:8px;margin:0 auto 18px}
+.g2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
+.g3{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.synapse-figure{max-width:980px;margin:28px auto 36px}
+.synapse-figure img{display:block;width:100%;height:auto;border-radius:8px}
+.num{font:400 3.2rem/1 var(--hd);color:transparent;-webkit-text-stroke:1.5px var(--cy);margin-bottom:10px}
+.call{border-left:5px solid var(--cy);background:linear-gradient(90deg,rgba(6,182,212,.14),transparent);padding:20px 24px;border-radius:0 12px 12px 0;margin:26px 0}
+.call.r{border-color:var(--rd);background:linear-gradient(90deg,rgba(239,68,68,.14),transparent)}
+.call b.t{display:block;font:700 .72rem var(--bd);letter-spacing:.18em;text-transform:uppercase;color:var(--cy);margin-bottom:6px}
+.call.r b.t{color:var(--rd)}
+.call p{margin:0;color:#F1F5F9}
+/* table */
+.tw{overflow-x:auto;border-radius:16px;border:1px solid var(--ln)}
+table{width:100%;border-collapse:collapse;min-width:620px;background:var(--card)}
+th,td{padding:16px 20px;text-align:left;vertical-align:top;border-bottom:1px solid var(--ln);font-size:.95rem}
+th{font:400 1rem var(--hd);text-transform:uppercase}
+th.s{color:var(--cy);border-top:4px solid var(--cy)}th.d{color:var(--rd);border-top:4px solid var(--rd)}
+td:first-child{color:var(--mu);font-weight:700;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;width:150px}
+tr:last-child td{border-bottom:0}
+/* dial */
+.dial{margin-top:40px;display:grid;grid-template-columns:1.1fr 1fr;gap:22px}
+@media(max-width:800px){.dial{grid-template-columns:1fr}}
+#syn{width:100%;height:240px;border-radius:12px;background:rgba(15,23,42,.7);display:block}
+.rng{width:100%;margin:18px 0 4px;accent-color:var(--cy);height:34px}
+.rl{display:flex;justify-content:space-between;font:700 .72rem var(--bd);letter-spacing:.12em;text-transform:uppercase}
+.vit{display:grid;gap:14px}
+.vit div{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--ln);padding-bottom:10px}
+.vit span{color:var(--mu);font-size:.85rem}
+.vit strong{font:400 2rem var(--hd);transition:color .3s}
+.vit em{font-style:normal;font-size:.8rem;color:var(--mu);margin-left:4px}
+/* tabs */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:22px}
+.tab{font:700 .85rem var(--bd);background:transparent;color:var(--mu);border:1px solid var(--ln);border-radius:30px;padding:10px 18px;cursor:pointer;transition:.2s}
+.tab:hover{color:#fff}.tab.on{background:#fff;color:var(--bg);border-color:#fff}
+.pane{display:none;animation:up .5s}.pane.on{display:block}
+@keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:700px){.vs{grid-template-columns:1fr}}
+.vs .card.s{border-top:4px solid var(--cy)}.vs .card.d{border-top:4px solid var(--rd)}
+.vs .card.d:hover{border-color:rgba(239,68,68,.6);box-shadow:0 14px 40px rgba(239,68,68,.12)}
+.chip{display:inline-block;font:700 .7rem var(--bd);letter-spacing:.14em;text-transform:uppercase;padding:3px 10px;border-radius:20px;margin-bottom:12px}
+.chip.s{background:rgba(6,182,212,.18);color:var(--cy)}.chip.d{background:rgba(239,68,68,.18);color:var(--rd)}
+/* effects */
+.eff{cursor:pointer}
+.eff .row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:14px}
+.eff .row div{padding:12px 14px;border-radius:10px;font-size:.9rem;line-height:1.5}
+.eff .a{background:rgba(6,182,212,.1);border:1px solid rgba(6,182,212,.35)}.eff .b{background:rgba(239,68,68,.1);border:1px solid rgba(239,68,68,.35)}
+.eff .a b{color:var(--cy)}.eff .b b{color:var(--rd)}
+.eff .more{max-height:0;overflow:hidden;transition:max-height .4s;color:var(--mu);font-size:.9rem}
+.eff.open .more{max-height:200px;margin-top:12px}
+.hint{font-size:.75rem;color:var(--mu);margin-top:10px}
+/* flow */
+.flow{display:flex;flex-wrap:wrap;gap:36px;margin:30px 0;align-items:stretch}
+.flow div{flex:1 1 200px;background:var(--card);border:1px solid var(--ln);padding:20px;position:relative;border-radius:12px}
+.flow div::after{content:'→';position:absolute;right:-29px;top:50%;transform:translateY(-50%);font-size:1.4rem;color:var(--cy);z-index:2}
+.flow div:last-child::after{display:none}
+.flow small{font:700 .68rem var(--bd);letter-spacing:.16em;color:var(--cy);text-transform:uppercase}
+.flow strong{display:block;font:400 1.15rem var(--hd);text-transform:uppercase;margin-top:4px}
+@media(max-width:960px){.flow div{flex-basis:100%}.flow div::after{content:'↓';right:auto;left:50%;top:auto;bottom:-29px;transform:translateX(-50%)}}
+/* refs */
+ol.refs{padding:0;list-style:none;counter-reset:r}
+ol.refs li{counter-increment:r;padding:16px 0 16px 3rem;border-bottom:1px solid var(--ln);font-size:.95rem;text-indent:-3rem}
+ol.refs li::before{content:counter(r);display:inline-block;width:3rem;text-indent:0;font:400 1.6rem var(--hd);color:var(--mu)}
+footer{padding:40px 0;border-top:1px solid var(--ln);text-align:center;color:var(--mu);font-size:.8rem}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s,transform .7s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+<a class="logo" href="#home">DRUGS &amp; HUMAN NERVOUS SYSTEM</a>
+<a class="l" href="#home">Home</a><a class="l" href="#profile">Profile</a><a class="l" href="#intro">Intro</a><a class="l" href="#classification">Classification</a><a class="l" href="#mechanisms">Mechanisms</a><a class="l" href="#effects">Physical Effects</a><a class="l" href="#conclusion">Conclusion</a><a class="l" href="#references">References</a>
+</div></nav>
+
+<main>
+<section id="home"><canvas id="hero-c"></canvas>
+<div class="wrap">
+<div class="kick"><b>SCES1074</b> Fundamentals of Biology</div>
+<h1>Drugs &amp; Human Nervous System</h1>
+<p class="sub">The Impact of Stimulant and Depressant Drugs on Human Synaptic Function</p>
+<p class="hook">Discover how stimulant and depressant drugs alter the way nerve cells communicate at the synapse. From chemical messengers crossing the synaptic gap to noticeable changes in heart rate, breathing, and reaction time, dive into the biology of the human nervous system. Explore how these substances shift the balance between <mark>speeding up</mark> and <mark class="r">slowing down</mark> nerve impulses across the body.</p>
+</div></section>
+
+<section id="profile"><div class="wrap">
+<div class="kick rv"><b>1.0</b> Profile &amp; Acknowledgement</div>
+<h2 class="rv">Know about me</h2>
+<div class="g2">
+<div class="card rv"><h3 class="cy">About the Author</h3><img class="author-photo" src="Telegram%20Desktop/potrait%20photo.jpg" alt="Portrait of Maxwell Aeron Matius"><p>Hello! My name is Maxwell Aeron Matius and I am a student teacher currently pursuing the Program Persediaan Ijazah Sarjana Muda Perguruan (PPISMP) specializing in Science at Institut Pendidikan Guru Kampus Kent.
+
+This scientific digital portfolio was developed on which emphasizes analyzing the nervous system and evaluating drug impacts on neurophysiology using digital technology. My goal is to synthesize complex neurological processes into clear, visual, and evidence-based digital content.</p></div>
+<div class="card rv"><h3 class="rd">Acknowledgement</h3><p>I would like to express my sincere gratitude to my lecturer, Dr Roziah binti Rusdin, for providing invaluable academic guidance and structure throughout this project. I would also like to extend my appreciation to my family and peers for their support, encouragement, helpful discussions, and for being part of a positive study group.</p></div>
+</div></div></section>
+
+<section id="intro"><div class="wrap">
+<div class="kick rv"><b>2.0</b> Introduction</div>
+<h2 class="rv">The body’s <mark>wiring</mark>, and how it gets hijacked</h2>
+<figure class="synapse-figure rv"><img src="Chemical%20Synapse_%20Signal%20Transmission.png" alt="Diagram of chemical synaptic signal transmission, from action potential arrival to neurotransmitter release and postsynaptic response"></figure>
+<div class="g3">
+<div class="card rv"><div class="num">A</div><h3>Central Control System</h3><p>The nervous system regulates homeostatic equilibrium, motor movements, sensory perception, and autonomic functions, coordinating every organ through rapid electrical and chemical signals.</p></div>
+<div class="card rv"><div class="num">B</div><h3>Synaptic Transmission</h3><p>Electrical action potentials convert to chemical signals: neurotransmitters leave the presynaptic terminal by exocytosis, cross the synaptic cleft, and bind postsynaptic receptors.</p></div>
+<div class="card rv"><div class="num">C</div><h3>Pharmacological Interference</h3><p>Exogenous chemicals can modify neurotransmitter release, receptor action, or clearance and reuptake, tilting the balance of the whole system.</p></div>
+</div>
+<div class="call rv"><b class="t">Biological takeaway</b><p>A drug does not create new signals. It reshapes the three steps every synapse already performs: release, action, and removal.</p></div>
+</div></section>
+
+<section id="classification"><div class="wrap">
+<div class="kick rv"><b>3.0</b> Drug Classification</div>
+<h2 class="rv"><span class="cy">Stimulants</span> vs. <span class="rd">Depressants</span></h2>
+<div class="tw rv"><table>
+<tr><th></th><th class="s">Stimulants</th><th class="d">Depressants</th></tr>
+<tr><td>Definition</td><td>Increase central nervous system (CNS) activity.</td><td>Decrease central nervous system (CNS) activity.</td></tr>
+<tr><td>Target neurotransmitters</td><td>Dopamine, Norepinephrine, Serotonin</td><td>GABA, Glutamate</td></tr>
+<tr><td>Examples</td><td>Caffeine, Amphetamines, Nicotine, Cocaine</td><td>Alcohol, Barbiturates, Benzodiazepines, Opiates</td></tr>
+<tr><td>Effects</td><td>Increased heart rate, hyper-vigilance, elevated breathing.</td><td>Slowed heart rate, depressed breathing, muscle relaxation.</td></tr>
+</table></div>
+
+<h3 style="margin-top:56px" class="rv">Try it: dial the CNS</h3>
+<p class="rv" style="max-width:600px">Drag the slider from depressant to stimulant and watch neurotransmitter release at the synapse and the body’s vitals shift. Values are illustrative, not clinical.</p>
+<div class="dial rv">
+<div class="card"><canvas id="syn" aria-label="Animated synapse"></canvas>
+<input id="rng" class="rng" type="range" min="-100" max="100" value="0" aria-label="CNS activity">
+<div class="rl"><span class="rd">◀ Depressant</span><span id="state">Baseline</span><span class="cy">Stimulant ▶</span></div></div>
+<div class="card vit">
+<div><span>Heart rate</span><strong id="hr">72<em>bpm</em></strong></div>
+<div><span>Breathing</span><strong id="br">16<em>/min</em></strong></div>
+<div><span>Reaction time</span><strong id="rt">250<em>ms</em></strong></div>
+<div style="border:0"><span>Synaptic firing</span><strong id="fr">Normal</strong></div>
+</div></div>
+</div></section>
+
+<section id="mechanisms"><div class="wrap">
+<div class="kick rv"><b>4.0</b> Cellular &amp; Synaptic Mechanisms</div>
+<h2 class="rv">Release. Action. <mark>Removal.</mark></h2>
+<div class="tabs" role="tablist">
+<button class="tab on" data-p="p1">A. Presynaptic release</button><button class="tab" data-p="p2">B. Cleft clearance</button><button class="tab" data-p="p3">C. Postsynaptic receptors</button></div>
+
+<div class="pane on" id="p1"><div class="vs">
+<div class="card s"><span class="chip s">Stimulant</span><h3>Amphetamines force exocytosis</h3><p>Amphetamines drive more dopamine and norepinephrine out of the presynaptic terminal, stimulating vesicle release and flooding the cleft with messenger.</p></div>
+<div class="card d"><span class="chip d">Depressant</span><h3>Ca²⁺ channels are suppressed</h3><p>Depressants suppress voltage-gated Ca²⁺ channels, so less calcium enters the terminal and fewer vesicles fuse with the membrane.</p></div></div></div>
+
+<div class="pane" id="p2"><div class="vs">
+<div class="card s"><span class="chip s">Stimulant</span><h3>Cocaine blocks the DAT</h3><p>Cocaine blocks the Dopamine Transporter (DAT) reuptake proteins, so dopamine lingers in the cleft and keeps stimulating the postsynaptic cell.</p></div>
+<div class="card d"><span class="chip d">Depressant</span><h3>Inhibition is prolonged</h3><p>Enzymatic interference and prolonged GABA action keep the brain’s main inhibitory signal active for longer than normal.</p></div></div></div>
+
+<div class="pane" id="p3"><div class="vs">
+<div class="card s"><span class="chip s">Stimulant</span><h3>Agonists depolarize</h3><p>Receptor agonists open channels for Na⁺ influx, depolarizing the postsynaptic membrane toward threshold and making firing more likely.</p></div>
+<div class="card d"><span class="chip d">Depressant</span><h3>GABA agonists hyperpolarize</h3><p>GABA-enhancing drugs increase Cl⁻ influx, hyperpolarizing the membrane and pushing it further from threshold.</p></div></div></div>
+
+<div class="call rv"><b class="t">Biological takeaway</b><p>Na⁺ in means <mark>closer to firing</mark>. Cl⁻ in means <mark class="r">further from firing</mark>. The ion that moves decides the neuron’s fate.</p></div>
+</div></section>
+
+<section id="effects"><div class="wrap">
+<div class="kick rv"><b>5.0</b> Systemic Physiological Effects</div>
+<h2 class="rv">From one synapse to the <mark>whole body</mark></h2>
+<div class="g3">
+<div class="card eff rv"><h3>Cardiovascular &amp; Respiratory</h3>
+<div class="row"><div class="a"><b>Sympathetic activation</b><br>Tachycardia, hypertension, hyperventilation</div><div class="b"><b>Brainstem depression</b><br>Bradycardia, hypotension, hypoventilation</div></div>
+<div class="more">Depressants act on parasympathetic pathways and the medulla, which sets heart and breathing rhythm. Severe depression of the medulla is why overdoses can stop breathing.</div><div class="hint">Tap to expand ＋</div></div>
+<div class="card eff rv"><h3>Neurological &amp; Motor</h3>
+<div class="row"><div class="a"><b>Hyper-arousal</b><br>Insomnia and tremors</div><div class="b"><b>Cerebellar ataxia</b><br>Delayed reaction time, slurred speech</div></div>
+<div class="more">The cerebellum coordinates smooth movement. When inhibition dominates, timing and balance break down, which is why reaction time lengthens.</div><div class="hint">Tap to expand ＋</div></div>
+<div class="card eff rv"><h3>Long-Term Disruption</h3>
+<div class="row"><div class="a"><b>Adaptation</b><br>Receptor down-regulation</div><div class="b"><b>Adaptation</b><br>Receptor up-regulation</div></div>
+<div class="more">Synaptic adaptation produces tolerance and a shifted set point. The result is homeostatic imbalance: the brain needs the drug to feel normal.</div><div class="hint">Tap to expand ＋</div></div>
+</div></div></section>
+
+<section id="conclusion"><div class="wrap">
+<div class="kick rv"><b>6.0</b> Scientific Synthesis</div>
+<h2 class="rv">One chain, <mark>four links</mark></h2>
+<div class="flow rv">
+<div><small>Step 1</small><strong>Drug classification</strong></div>
+<div><small>Step 2</small><strong>Synaptic mechanism</strong><span style="font-size:.85rem;color:var(--mu)">Release / Action / Removal</span></div>
+<div><small>Step 3</small><strong>CNS activity level</strong></div>
+<div><small>Step 4</small><strong>Human physiological response</strong></div>
+</div>
+<div class="call rv"><b class="t">Core takeaway</b><p>Microscopic synaptic shifts in excitation and inhibition govern macroscopic physiological function and bodily equilibrium. Change the balance at one synapse, and the whole body feels it.</p></div>
+</div></section>
+
+<section id="references"><div class="wrap">
+<div class="kick rv"><b>7.0</b> Academic References</div>
+<h2 class="rv">References</h2>
+<ol class="refs rv">
+<li>Bear, M. F., Connors, B. W., &amp; Paradiso, M. A. (2020). <i>Neuroscience: Exploring the brain</i> (4th ed.). Wolters Kluwer.</li>
+<li>Campbell, N. A., Urry, L. A., Cain, M. L., Wasserman, S. A., Minorsky, P. V., &amp; Urry, L. A. (2021). <i>Biology: A global approach</i> (12th ed.). Pearson Education.</li>
+<li>Kandel, E. R., Koester, J. D., Mack, S. H., &amp; Siegelbaum, S. A. (2021). <i>Principles of neural science</i> (6th ed.). McGraw-Hill Education.</li>
+<li>National Institute on Drug Abuse. (n.d.). <i>Drugs, brains, and behavior: The science of addiction</i>. <a href="https://nida.nih.gov/publications/drugs-brains-behavior-science-addiction">https://nida.nih.gov/publications/drugs-brains-behavior-science-addiction</a></li>
+<li>Sherwood, L. (2016). <i>Human physiology: From cells to systems</i> (9th ed.). Cengage Learning.</li>
+</ol></div></section>
+</main>
+<footer>DRUGS &amp; HUMAN NERVOUS SYSTEM · SCES1074 · IPG Kampus Kent, Tuaran, Sabah · 30 October 2026</footer>
+
+<script>
+(function(){
+var $=function(s,r){return(r||document).querySelector(s)},$$=function(s,r){return[].slice.call((r||document).querySelectorAll(s))};
+var reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+/* reveal */
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});
+$$('.rv').forEach(function(e){io.observe(e)});
+/* nav highlight */
+var links=$$('nav a.l');
+var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(l){l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-45% 0px -50% 0px'});
+$$('section[id]').forEach(function(s){so.observe(s)});
+/* tabs */
+$$('.tab').forEach(function(t){t.onclick=function(){$$('.tab').forEach(function(x){x.classList.toggle('on',x===t)});$$('.pane').forEach(function(p){p.classList.toggle('on',p.id===t.dataset.p)})}});
+/* effects expand */
+$$('.eff').forEach(function(c){c.onclick=function(){c.classList.toggle('open')}});
+/* particle canvas helper */
+function sizeC(c){var r=c.getBoundingClientRect(),d=Math.min(devicePixelRatio||1,2);c.width=r.width*d;c.height=r.height*d;return d}
+/* hero network */
+var hc=$('#hero-c'),hx=hc.getContext('2d'),hd=sizeC(hc),pts=[];
+function initPts(){hd=sizeC(hc);pts=[];var n=Math.round(hc.width/hd/16);for(var i=0;i<n;i++)pts.push({x:Math.random()*hc.width,y:Math.random()*hc.height,vx:(Math.random()-.5)*.5*hd,vy:(Math.random()-.5)*.5*hd})}
+initPts();addEventListener('resize',initPts);
+function hero(){hx.clearRect(0,0,hc.width,hc.height);
+for(var i=0;i<pts.length;i++){var a=pts[i];a.x+=a.vx;a.y+=a.vy;if(a.x<0||a.x>hc.width)a.vx*=-1;if(a.y<0||a.y>hc.height)a.vy*=-1;
+for(var j=i+1;j<pts.length;j++){var b=pts[j],dx=a.x-b.x,dy=a.y-b.y,d=Math.sqrt(dx*dx+dy*dy),m=130*hd;
+if(d<m){hx.strokeStyle=(a.x/hc.width<.5?'rgba(6,182,212,':'rgba(239,68,68,')+(1-d/m)*.35+')';hx.lineWidth=hd;hx.beginPath();hx.moveTo(a.x,a.y);hx.lineTo(b.x,b.y);hx.stroke()}}
+hx.fillStyle=a.x/hc.width<.5?'#06B6D4':'#EF4444';hx.beginPath();hx.arc(a.x,a.y,2*hd,0,6.283);hx.fill()}
+if(!reduce)requestAnimationFrame(hero)}
+hero();
+/* synapse */
+var sc=$('#syn'),sx=sc.getContext('2d'),sd=sizeC(sc),act=0,parts=[],last=0;
+addEventListener('resize',function(){sd=sizeC(sc)});
+function col(){return act>5?'#06B6D4':act<-5?'#EF4444':'#E2E8F0'}
+function syn(t){var w=sc.width,h=sc.height,cx=w/2;sx.clearRect(0,0,w,h);
+var intensity=(act+100)/200,fallSpeed=.55+intensity*1.45,spawnDelay=500-intensity*440;
+if(t-last>spawnDelay){last=t;parts.push({x:cx+(Math.random()-.5)*w*.3,y:h*.3,drift:.8+Math.random()*.7})}
+sx.fillStyle='#1E293B';sx.fillRect(0,0,w,h*.28);sx.fillRect(0,h*.72,w,h*.28);
+sx.fillStyle=col();sx.globalAlpha=.25;sx.fillRect(0,h*.28,w,h*.02);sx.fillRect(0,h*.7,w,h*.02);sx.globalAlpha=1;
+sx.fillStyle='#94A3B8';sx.font=(11*sd)+'px Inter,sans-serif';sx.fillText('PRESYNAPTIC',12*sd,16*sd);sx.fillText('POSTSYNAPTIC',12*sd,h-10*sd);
+for(var i=parts.length-1;i>=0;i--){var p=parts[i];p.y+=p.drift*sd*fallSpeed;sx.fillStyle=col();sx.beginPath();sx.arc(p.x,p.y,4*sd,0,6.283);sx.fill();if(p.y>h*.72)parts.splice(i,1)}
+requestAnimationFrame(syn)}
+requestAnimationFrame(syn);
+var rng=$('#rng');
+function upd(){act=+rng.value;var f=act/100;
+$('#hr').firstChild.nodeValue=Math.round(72+f*(f>0?48:-24));
+$('#br').firstChild.nodeValue=Math.round(16+f*(f>0?10:-8));
+$('#rt').firstChild.nodeValue=Math.round(250+(f>0?-f*60:-f*280));
+$('#state').textContent=act>60?'Strong stimulant':act>10?'Mild stimulant':act<-60?'Strong depressant':act<-10?'Mild depressant':'Baseline';
+$('#fr').textContent=act>60?'Hyper-active':act>10?'Elevated':act<-60?'Suppressed':act<-10?'Reduced':'Normal';
+$$('.vit strong').forEach(function(s){s.style.color=act>10?'#06B6D4':act<-10?'#EF4444':'#E2E8F0'});$('#state').style.color=col()}
+rng.oninput=upd;rng.style.accentColor='#06B6D4';upd();
+})();
+</script>
+</body>
+</html>
